@@ -284,20 +284,31 @@ header .right-logo {
     margin-bottom: 5px;
 }
 
-/* "Buy Now" button */
-.buy-now {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #4CAF50;
-    padding: 5px 10px; /* Adjusted padding for smaller button */
-    border-radius: 5px;
-    font-size: 10px; /* Reduced font size */
+/* Buttons at the Bottom */
+.add-to-cart {
     display: inline-block;
+    margin-top: auto; /* Push button to the bottom */
+    padding: 5px 10px; /* Reduced padding for a smaller button */
+    font-size: 12px; /* Reduced font size */
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
-.buy-now:hover {
-    background-color: #138a13;
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the button when it becomes "Go to Cart" */
+.add-to-cart.go-to-cart {
+    background-color: #007BFF;
+    color: white;
+}
+.add-to-cart.go-to-cart:hover {
+    background-color: #0056b3;
 }
 
 /* Optional: View All Products */
