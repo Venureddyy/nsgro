@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const checkoutBtn = document.querySelector("#checkout-btn");
     checkoutBtn.addEventListener("click", () => {
         const itemNames = cart.map(item => item.name).join(", ");
-        window.location.href = `https://wa.me/+919666322295?text=I am interested in buying these items: ${itemNames}`;
+        window.location.href = `https://wa.me/+918374890396?text=I am interested in buying these items: ${itemNames}`;
     });
 });
 
